@@ -1,10 +1,24 @@
-import React from 'react'
+import React from "react";
 
-function Body(){
+import Restcard from "./Restcard";
+import "./comp.css";
 
-    return (
-        <div> from body </div>
-    )
+function Body() {
+  return (
+    <div>
+      <div> Search</div>
+      <div className="res-container">
+        <Restcard />
+        <Restcard />
+        <Restcard />
+        <Restcard />
+        <Restcard />
+        <Restcard />
+        <Restcard />
+        <Restcard />
+      </div>
+    </div>
+  );
 }
 
 export default Body;

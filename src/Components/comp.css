@@ -1,0 +1,19 @@
+img {
+  height: 100px;
+}
+
+.restcard {
+  width: 200px;
+  height: 300px;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.restcard:hover {
+  border: 1px solid black;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
