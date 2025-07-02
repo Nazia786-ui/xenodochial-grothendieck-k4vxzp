@@ -1,10 +1,11 @@
 import "./styles.css";
-import Body from './Components/Body'
+import Body from "./Components/Body";
 
 export default function App() {
   return (
     <div className="App">
-      <Body/>
+      <h1>test</h1>
+      <Body />
     </div>
   );
 }
