@@ -1,9 +1,22 @@
 img {
   height: 100px;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+}
 
 .restcard {
-  width: 200px;
   height: 300px;
   background-color: aqua;
   margin: 10px;
